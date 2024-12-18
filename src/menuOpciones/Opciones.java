@@ -20,7 +20,6 @@ public int seleccionarOpcion(Scanner teclado){
 
     try {
         opcion = teclado.nextInt();
-        System.out.println(opcion);
     }catch (Exception e){
         System.out.println("Ocurrio un error  en opciones-----------: ");
         e.printStackTrace();
